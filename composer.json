@@ -1,11 +1,11 @@
 {
-	"name": "fatjiong/daterangepicker",
+	"name": "fatjiong/yii2-daterangepicker",
 	"description": "Bootstrap Date Range Picker widget for Yii 2 Framework",
 	"keywords": ["yii", "bootstrap", "jquery", "daterangepicker"],
 	"type": "yii2-extension",
 	"license": "GNU GENERAL PUBLIC LICENSE",
 	"support": {
-		"source": "https://github.com/fatjiong/daterangepicker"
+		"source": "https://github.com/fatjiong/yii2-daterangepicker"
 	},
 	"authors": [
 		{
@@ -20,5 +20,5 @@
 	"autoload": {
 		"psr-0": { "fatjiong\\daterangepicker\\": "" }
 	},
-	"target-dir": "fatjiong/daterangepicker"
+	"target-dir": "fatjiong/yii2-daterangepicker"
 }
