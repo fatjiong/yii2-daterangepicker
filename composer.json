@@ -18,7 +18,8 @@
 		"yiisoft/yii2-bootstrap": "*"
 	},
 	"autoload": {
-		"psr-0": { "fatjiong\\daterangepicker\\": "" }
-	},
-	"target-dir": "fatjiong/yii2-daterangepicker"
+        "psr-4": {
+            "fatjiong\\daterangepicker\\": ""
+        }
+    }
 }
