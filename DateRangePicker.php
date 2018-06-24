@@ -20,11 +20,12 @@ class DateRangePicker extends InputWidget
         if (!isset($this->htmlOptions['id'])) {
             $this->htmlOptions['id'] = $this->getId();
         }
-        if (!$this->name) {
+        if (!isset($this->htmlOptions['name'])) {
             $this->htmlOptions['name'] = $this->hasModel() ? Html::getInputName($this->model, $this->attribute) : $this->id;
-            $this->name                = $this->htmlOptions['name'];
-        } else {
-            $this->htmlOptions['name'] = $this->name;
+        }
+
+        if (!$this->name) {
+            $this->name = $this->htmlOptions['name'];
         }
 
         parent::init();
